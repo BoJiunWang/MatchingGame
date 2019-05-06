@@ -149,7 +149,7 @@ void HelloWorld::createMyPokerCard()
     auto visibleSize = Director::getInstance()->getVisibleSize();
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
 
-s    // 產生亂數陣列
+    // 產生亂數陣列
     std::vector<int> randomNumber;
     for(int i = 0; i < 20; i++)
         randomNumber.push_back(i % 10);
